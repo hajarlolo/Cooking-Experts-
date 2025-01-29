@@ -1,0 +1,80 @@
+/*****************************contenu**************************** */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #3b2825;
+    color: #8c4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;}      
+
+.form-container {
+        margin-top: 5%;
+        background: #fff;
+        padding: 3rem;
+        box-shadow:20px 10px rgba(0, 0, 0, 0.334);
+        border-radius: 10px;
+        width: max-content;
+}
+
+h2 {text-align: center;  margin-bottom: 1.5rem;  color: #623e38;margin-top: 0px;}
+        
+label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;}
+
+input, select, button {
+        width: 100%;
+        padding: 0.8rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;}
+
+button {
+        background-color: #623e38;
+        color: wheat;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    margin-bottom: 0px;}
+
+button:hover {background-color: rgb(90, 31, 31);color: white;}       
+
+p{text-align: center;}
+
+/*****************************menu**************************** */
+nav{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0px;}
+
+nav ul{list-style-type: none;}
+
+nav li{
+    float: right;
+    width: 25%;
+    text-align: center;}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid ;
+    border-color: rgb(255, 255, 255);
+    padding: 0px;}
+
+nav a:hover{
+    color: rgb(209, 149, 112);
+    border-bottom: 2px solid rgb(209, 149, 112);}
+
+.logo{width: 100px;margin: 30px;margin-top: 1px;margin-bottom: 0;}

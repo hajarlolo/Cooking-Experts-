@@ -1,0 +1,52 @@
+/*****************************contenu**************************** */
+img{width :50px;}
+
+form {
+    margin-top: 15%;
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:20px 10px rgba(0, 0, 0, 0.334);
+    width: 45%;}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #3b2825;
+    color: #8c4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;}
+
+form li{list-style-type: none;float: left;text-align:center;padding: 15px;}
+
+form li a{list-style-type: none;text-decoration: none;}
+/*****************************menu**************************** */
+nav{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0px;}
+
+nav ul{list-style-type: none;}
+
+nav li{float: right;   width: 25%;    text-align: center;}
+
+nav ul::after{content: "";    display: table;   clear: both;}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid ;
+    border-color: rgb(255, 255, 255);
+    padding: 0px;}
+
+nav a:hover{
+    color: rgb(209, 149, 112);
+    border-bottom: 2px solid rgb(209, 149, 112);}
+
+.logo{width: 100px;margin: 30px;margin-top: 1px;margin-bottom: 0;}    
